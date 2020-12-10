@@ -1,6 +1,11 @@
-# Project Author(s)
+Authors
+Joshua Roberts Anton Benfey Alexander Weismann
 
-- delete these lines and enter name, student number, github name, 
-and email for project members
+Your Students
+3636895 3539741 3531638
 
-- Joanna Student, 455345434, joanna-student, jstuden12@unb.ca
+Your UNB Login
+jrober17 abenfey aweisman
+
+Your GitHub Account Username
+JoshRobertsUNB Benfey AlexanderWeismann
