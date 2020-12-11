@@ -88,7 +88,8 @@ public class Model {
     public void dealDamage(int damage){
         playerHealth.set(playerHealth.get() - damage);
         if(playerHealth.get() <= 0){
-            //Game overs
+            System.out.println("GAME OVER");
+            System.exit(1);
         }
     }
 
