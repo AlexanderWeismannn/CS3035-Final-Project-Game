@@ -157,8 +157,15 @@ public class GameController {
         spawnTimer = new Timeline(
                 new KeyFrame(Duration.seconds(time),e->{
                     totalEnemiesSpawned++;
-                    if(totalEnemiesSpawned > 30){
-                        time = 1.4;
+                    if(totalEnemiesSpawned > 60){
+                        time = 0.6;
+                        Main.model.getEnemyList().add(new Goblin(20, 120));
+                        spawnTimer.stop();
+                        spawnTimer.getKeyFrames().clear();
+                        enemySpawner();
+                    }
+                    else if(totalEnemiesSpawned > 30){
+                        time = 1;
                         Main.model.getEnemyList().add(new Goblin(10, 100));
                         spawnTimer.stop();
                         spawnTimer.getKeyFrames().clear();
