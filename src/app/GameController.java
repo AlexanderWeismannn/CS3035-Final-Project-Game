@@ -166,7 +166,7 @@ public class GameController {
                     }
                     else if(totalEnemiesSpawned > 30){
                         time = 1;
-                        Main.model.getEnemyList().add(new Goblin(10, 100));
+                        Main.model.getEnemyList().add(new Goblin(12, 100));
                         spawnTimer.stop();
                         spawnTimer.getKeyFrames().clear();
                         enemySpawner();
